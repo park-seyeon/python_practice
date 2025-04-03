@@ -4,3 +4,5 @@ for item in range(1, 10):
         print(item)
         count += 1
 print(f"We have {count} even numbers")
+
+print("hello")
