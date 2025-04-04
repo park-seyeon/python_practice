@@ -133,8 +133,8 @@ for x in "Python":
 for x in [1, 2, 3, 4]:
     print(x)
 
-for item in shopping_cart:
-    print(item)
+#for item in shopping_cart:
+#    print(item)
 
 # while loops
 number = 100
@@ -153,3 +153,44 @@ while True:
     print("ECHO", command)
     if command.lower() == "quit":
         break
+
+# defining function
+
+def greet(first_name, last_name):
+    print(f"Hi {first_name} {last_name}")
+    print("Welcome aboard")
+
+
+greet("SeYeon", "Park")
+
+# types of functions 
+def get_greeting(name): 
+    return f"Hi {name}"
+
+message = get_greeting("SeYeon")
+file = open("content.txt", "w")
+file.write (message)
+
+# None??
+
+# keyword arguments 
+def increment(number, by): 
+    return number + by
+
+print(increment(2, by=1))
+
+# default arguments: all optional parameters come before required parameters
+def increment(number, by=1):
+    return number + by 
+
+print(increment(2)) # by default = 1
+print(increment(2, 5))
+
+# args 
+def multiply(*numbers): 
+    total = 1
+    for number in numbers:
+        total *=number 
+    return total 
+
+print(multiply(2, 3, 4, 5))
