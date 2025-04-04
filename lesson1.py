@@ -1,3 +1,10 @@
+#git status
+#git add .
+#git commit -m "name"
+#git push
+
+# git checkout dev 
+
 import math
 print("Hello World")
 # use shortcut ctrl + ` to open/close terminal
