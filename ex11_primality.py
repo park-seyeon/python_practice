@@ -21,7 +21,7 @@ for num in range(2, number-1):
         continue
 print("prime number")
 
-# I like this one:
+# I like this one (from SOLUTION):
 divisors = [x for x in range(2, number-1) if number % x == 0]
 
 if len(divisors) > 0:

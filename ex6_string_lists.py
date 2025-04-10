@@ -16,7 +16,7 @@ if reverse == word:
 else:
     print("wrong")
 
-# using definition for reversed word (adopted)
+# using definition for reversed word (adopted from SOLUTION)
 
 
 def reverse(input):

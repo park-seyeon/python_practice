@@ -9,7 +9,7 @@ for item_a in a:
 
 # print(a_b)
 
-# slightly better one
+# slightly better one (SOLUTION?)
 ab = []
 for item in a:
     if item in b:
@@ -17,7 +17,7 @@ for item in a:
 
 # print(ab)
 
-# one line
+# one line (SOLUTION)
 print([item for item in set(a) if item in b])   # set() removes duplicates
 
 print(list(set(a) & set(b)))    # list() creates a list
