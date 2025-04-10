@@ -32,3 +32,16 @@ def remove_duplicates(ex):
 
 
 print(remove_duplicates(a))
+
+# from SOLUTION
+
+
+def removing(x):
+    y = []
+    for i in x:
+        if x not in y:
+            y.append(i)
+    return y
+
+
+print(removing(a))
